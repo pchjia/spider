@@ -1,0 +1,18 @@
+爬取 TED 所有演讲的字幕，包括以下所有内容
+
+    title:          演讲题目        ×   title               str
+    author:         演讲者          ×   author              str
+    author_info:    作者简介        ×   author_info         dict
+        url         作者信息url
+        name        作者名字
+        desc        作者简介
+        position    学术地位
+
+    post_time:      发表时间        ×   post_time           str
+    categories：    分类            ×   rated               list
+    lecture_desc:   描述信息        ×   lecture_desc        str
+    lecture_url:    视频url地址     ×   lecture_url         str
+    image_url       作者图片地址    ×   image_url           str
+    subtitle:       字幕            ×   subtitle            str
+    duration:       时长            ×   duration            str
+    location:       地点            *   location            str
